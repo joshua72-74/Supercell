@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-family: Helvetica;
+}
+
+.container-1{
+    width: 100%;
+    height: 75%;
+    
+    background: url('https://supercell.com/_next/static/media/frontpage_hero.bca9ba5a.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.container-1 h1{
+    margin-top: 200px;
+}
+
+nav{
+    background-color: black;
+    width: 75%;
+    height: 11vh;
+
+    margin: 35px 50%;
+    margin-bottom: 50px;
+
+    transform: translate(-50%, -50%);
+   
+    display: flex;
+
+    position: fixed;
+
+}
+
+nav img{
+    height: 65px;
+    width: auto;
+}
+
+.wrapper-1{
+    /* padding-top: 10px; */
+
+    display: flex;
+    align-items: center;
+
+    width: 50%;
+
+}
+
+.wrapper-1>a{
+    color: grey;
+
+    font-size: 17px;
+    font-weight: 500;
+
+    padding: 20px;
+    text-decoration: none;
+}
+
+.wrapper-1>a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+.wrapper-2{
+    width: 50%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.wrapper-2 ul{
+    list-style-type: none;
+    font-size: 12px;
+
+}
+
+.wrapper-2 li{
+    display: inline;
+
+    font-weight: 900;
+
+    background-color: grey;
+    padding: 10px;
+
+    margin: 20px;
+
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+
+    transition: 1s;
+    
+}
+
+.wrapper-2 li:hover{
+    background-color: white;
+    cursor: pointer;
+    transition: 0.25s;
+
+}
+
+.wrapper-2 i{
+    width: auto;
+    height: 100%;
+
+    color: gray;
+
+    margin: 20px;
+
+    font-size: 20px;
+
+    border-left: 2px solid gray;
+
+    padding-left: 15px;
+
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-2 i:hover{
+    cursor: pointer;
+    color: white;
+
+}
+
+
+.container-1 button{
+    font-size: 12px;
+    font-weight: 700;
+
+    background-color: rgb(45, 133, 243);
+    color: white;
+
+    padding: 1.2em 1.7em;
+    margin-top: 140px;
+
+    border: none;
+    border-radius: 20px;
+}
+
+.container-1 button:hover{
+    background-color: rgb(31, 114, 214);
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+
+.box-1{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* margin-top: 200px; */
+}
+
+.box-1 h1{
+    font-size: 40px;
+    font-weight: 700;
+
+    width: 400px;
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+.box-1 p{
+    font-size: 18px;
+
+    width: 550px;
+    text-align: center;
+}
+
+
+
+/*  */
+
+.container-2{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+
+    margin-top: 50px;
+}
+
+.container-2 img{
+    width: 600px;
+    height: auto;
+}
+
+.container-2 img:hover{
+    cursor: pointer;
+}
+
+.container-2 figcaption{
+    width: 600px;
+    text-align: center;
+}
+
+.container-2 h1{
+    font-size: 17px;
+
+    color: rgb(251, 74, 157);
+
+    margin: 10px 0;
+}
+
+.container-2 p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.archive{
+    font-size: 12px;
+    font-weight: 700;
+
+    background-color: rgb(45, 133, 243);
+    color: white;
+
+    padding: 1.2em 1.7em;
+    margin-top: 80px;
+
+    border: none;
+    border-radius: 10px;
+
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.archive:hover{
+    cursor: pointer;
+}
+
+
+.container-3{
+    width: 100%;
+    height: 80%;
+
+    color: white;
+    
+    background: linear-gradient(to right, #86a4ff, #2948ff);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-4{
+    width: 100%;
+    height: 80%;
+    
+    color: white;
+
+    background: linear-gradient(to left, #86a4ff, #2948ff);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box-a h1{
+    font-size: 40px;
+
+    margin-bottom: 20px;
+}
+
+.box-a p{
+    font-size: 20px;
+    width: 570px;
+
+    margin-bottom: 40px;
+
+}
+
+.box-a button{
+    background-color: white;
+    
+    border: none;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    padding: 17px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 5px black;
+}
+
+.box-a button:hover{
+    cursor: pointer;
+}
+
+
+.box-b img{
+    height: 500px;
+    width: auto;
+}
+
+/*  */
+
+.container-5{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+
+    /* margin-top: 50px; */
+    
+    background-color: rgba(232, 232, 232, 0.996);
+
+    width: 100%;
+    height: 115%;
+
+}
+
+.container-5 figure{
+    margin-top: 100px;
+
+
+}
+
+.container-5 img{
+    width: 600px;
+    height: auto;
+}
+
+.container-5 figcaption{
+    width: 600px;
+    height: 300px;
+    /* text-align: center; */
+
+    background-color: white;
+
+    padding: 30px;
+}
+
+.container-5 h1{
+    font-size: 20px;
+
+    /* color: rgb(251, 74, 157); */
+
+    margin: 10px 0;
+}
+
+.container-5 p{
+    font-size: 17px;
+
+    margin-bottom: 20px;
+}
+
+.container-5 a{
+    font-weight: 700;
+    font-size: 20px;
+    
+    color: blue;
+    text-decoration: none;
+}
+
+.container-5 a:hover{
+    cursor: pointer;
+}
+
+/*  */
+
+.container-6{
+    color: white;
+    background-color: black;
+
+    position: relative;
+}
+
+.container-6 img{
+    height: 23px;
+    width: auto;
+
+    margin: 20px 5px;
+
+}
+
+.container-6 img:hover{
+    cursor: pointer;
+}
+
+.box-xy{
+    padding-top: 40px;
+
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    column-gap: 80px;
+
+    border-bottom: 1px solid white;
+
+    margin-bottom: 30px;
+}
+
+
+.box-y img{
+    width: 150px;
+    height: auto;
+}
+
+
+
+.container-6 ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+.container-6 li{
+    display: inline;
+
+    font-size: 16px;
+
+    margin: 0 10px;
+}
+
+.container-6 li:hover{
+    cursor: pointer;
+}
+
+.box-z{
+    margin: auto;
+    margin-top: 30px;
+
+    width: 71%;
+
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 15px;
+
+    color: grey;
+
+    padding-bottom: 200px;
+}
+
+.box-z img{
+    height: 45px;
+    width: auto;
+}
+
+
+a:hover{
+    cursor: pointer;
+}
