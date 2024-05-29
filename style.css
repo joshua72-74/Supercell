@@ -45,7 +45,7 @@ nav{
 }
 
 nav img{
-    height: 65px;
+    height: 7vh;
     width: auto;
 }
 
@@ -460,4 +460,35 @@ nav img{
 
 a:hover{
     cursor: pointer;
+}
+
+
+/* media-query  */
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .menu{
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+    nav{
+        width: 100%;
+    }
+
+    .wrapper-1 img{
+        height: 100%;
+        width: auto;
+    }
+
+    .wrapper-1 a{
+        display: none;
+    }
+
+    .wrapper-2 ul{
+        display: none;
+    }
+
+
+
 }
